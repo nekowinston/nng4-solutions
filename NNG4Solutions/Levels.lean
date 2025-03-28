@@ -8,3 +8,7 @@ import NNG4Solutions.S01Tutorial.L07
 import NNG4Solutions.S01Tutorial.L08
 
 import NNG4Solutions.S02Addition.L01
+import NNG4Solutions.S02Addition.L02
+import NNG4Solutions.S02Addition.L03
+import NNG4Solutions.S02Addition.L04
+import NNG4Solutions.S02Addition.L05
