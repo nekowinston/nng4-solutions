@@ -1,4 +1,4 @@
 import NNG4Solutions
 
 def main : IO Unit :=
-  IO.println s!"Hello, {hello}!"
+  IO.println s!"This binary doesn't do much"

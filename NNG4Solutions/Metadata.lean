@@ -6,5 +6,3 @@ theorem three_eq_succ_two  : 3 = Nat.succ 2 := by rfl
 theorem four_eq_succ_three : 4 = Nat.succ 3 := by rfl
 
 end Definitions
-
-def hello := "world"
