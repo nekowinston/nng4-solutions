@@ -2,7 +2,8 @@ import NNG4Solutions
 import Mathlib
 
 open Definitions
+open Nat
 
 example (a b c : ℕ) : a + (b + 0) + (c + 0) = a + b + c := by
-  rewrite [Nat.add_zero c, Nat.add_zero b]
+  rewrite [add_zero c, add_zero b]
   rfl

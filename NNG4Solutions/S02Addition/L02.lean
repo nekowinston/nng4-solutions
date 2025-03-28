@@ -2,10 +2,11 @@ import NNG4Solutions
 import Mathlib
 
 open Definitions
+open Nat
 
-theorem succ_add (a b : ℕ) : Nat.succ a + b = Nat.succ (a + b) := by
+theorem succ_add (a b : ℕ) : succ a + b = succ (a + b) := by
   induction' b with d hd
   . repeat rewrite [add_zero]
     rfl
-  . rewrite [Nat.add_succ, hd, Nat.add_succ]
+  . rewrite [add_succ, hd, add_succ]
     rfl
